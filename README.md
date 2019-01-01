@@ -1,5 +1,6 @@
     
-            FactoryPattern pattern = new FactoryPattern();
+    
+    FactoryPattern pattern = new FactoryPattern();
 		
 		Animal animal1 = pattern.getAnimalName("Tiger");
 		animal1.animalName();
@@ -9,7 +10,7 @@
     
     
     
-             Outputs : 
+    Outputs : 
 
-             Tiger
-             Elephant
+    Tiger
+    Elephant
