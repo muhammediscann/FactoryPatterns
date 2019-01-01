@@ -1,2 +1,15 @@
-These design patterns provide a way to create objects while hiding the creation logic,
-rather than instantiating objects directly using new operator. 
+    
+            FactoryPattern pattern = new FactoryPattern();
+		
+		Animal animal1 = pattern.getAnimalName("Tiger");
+		animal1.animalName();
+		
+		Animal animal2 = pattern.getAnimalName("Elephant");
+		animal2.animalName();
+    
+    
+    
+             Outputs : 
+
+             Tiger
+             Elephant
